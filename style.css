@@ -18,6 +18,7 @@ main {
   align-items: center;
 }
 
+/* Header */
 header {
   background-color: rgb(230, 233, 235);
   box-shadow: 1px 1px 20px rgb(187, 177, 177);
@@ -59,4 +60,40 @@ nav ul > li {
 
 .nav-three {
   display: none;
+}
+
+/* Footer  */
+footer {
+  background-color: rgb(230, 233, 235);
+  box-shadow: 1px 1px 20px rgb(187, 177, 177);
+  width: 100vw;
+  height: 16%;
+  /* Display property */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  /* posiotn Property  */
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-item-two {
+  display: flex;
+  gap: 2em;
+}
+
+.f-i-t-one,
+.f-i-t-two,
+.f-i-t-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5em;
 }
