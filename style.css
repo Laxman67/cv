@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
 
 * {
@@ -62,6 +63,18 @@ nav ul > li {
   display: none;
 }
 
+span:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #1eb8ae;
+  position: absolute;
+  left: 10px;
+}
+
+.nav-one{
+  padding-left: 1.3em;
+}
 /* Footer  */
 footer {
   background-color: rgb(230, 233, 235);
